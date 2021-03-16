@@ -1,0 +1,122 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* page3  */
+.wrapper3 {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.header3 {
+    margin-left: 30px;
+    float: left;
+}
+.header3 h1 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    color: #000000;
+}
+.cart {
+    float: right;
+    margin-right: 70px;
+    margin-top: 10px;
+}
+
+.cart .fa-shopping-cart {
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+.input {
+    float: right;
+    border-bottom: 0.5px solid #C4C4C4;
+    margin-right: 15%;
+    margin-top: 10px;
+    width: 215px;
+}
+.input p {
+    font-family: 'Roboto',sans-serif;
+    font-weight: 900;
+    font-size: 15px;
+    text-align: right;
+    color: #E7F0F2;
+}
+.input .fa-search {
+    margin-left: 55px;
+    margin-bottom: 12px;
+    color: #000000;
+}
+.container-3{
+    width: 100%;
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+}
+
+.container-left {
+    width: 20%;
+    height: 100%; 
+    background-color: white;
+}
+
+.container-center {
+    width: 60%;
+    height: 100%; 
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+} 
+.container-right
+{
+    width: 20%;
+    height: 100%; 
+    background-color: white;
+}
+.kotak
+{
+    width: 30%;
+    height: 50px;
+    border: 1px solid black;
+}
