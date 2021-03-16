@@ -49,8 +49,8 @@ table {
     height: 100vh;
 }
 
-/* .container {
-    width: 60%;
+ .container {
+    width: 59vw;
     background: rgba(231, 240, 242, 0.3);
 }
 .header {
@@ -58,7 +58,7 @@ table {
    margin-left: 17%;
 }
 .header h1 {
-    font-size: 80px;
+    font-size: 79px;
     font-family: 'Montserrat',sans-serif;
     font-style: normal;
     font-style: normal;
@@ -74,20 +74,20 @@ table {
 .select {
     float: right;
     margin-top: 70px;
-    margin-right: 65px;
-    background: #E7F0F2;
+    margin-right: 25%;
 }
-.dropdown option {
-    font-family: 'Ubuntu'sans-serif;
+.dropdown p {
+    font-family: 'Ubuntu',sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 12px;
+    font-size: 14px;
     color: rgba(0, 0, 0, 0.4);
+    margin-top: 12px;
 }
 .shopnow {
     border: 1px solid #00000000;
     box-sizing: border-box;
-    margin-top: 70px;
+    margin-top: 75px;
 }
 .shopnow button {
     background: black;
@@ -95,105 +95,47 @@ table {
     font-size: 12px;
     font-family: 'Ubuntu', sans-serif;
     padding: 10px;
-    width: 90px;
+    width: 100px;
     cursor: pointer;
-}  */
-
-
- .container {
+}  
+.concept {
     position: absolute;
-    width: 60%;
-    height: 680px;
-    left: 0px;
-    top: 0px;
-    background: rgba(231, 240, 242, 0.3);
-    backdrop-filter: blur(6px);
+    right: 145px;
+    top: 37%;
 }
-.header {
-    position: absolute;
-    width: 702px;
-    top: 90px;
-    left: 218px;
-    height: 185px;
-}
-.header h1 {
-    font-size: 79px;
-    font-family: 'Roboto', sans-serif;
+.concept h2 {
+    font-family: 'Ubuntu',sans-serif;
     font-style: normal;
-    margin-top: -30px;
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 34px;
+    text-align: right;
+    color: #000000;
 }
-.header h1 span {
-    font-weight: bold;
+.concept span {
+    font-family: 'Ubuntu',sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 45px;
+    line-height: 34px;
+    text-align: right;
+    color: #000000;
 }
-
-.dropdown {
+.text {
     position: absolute;
-    width: 1px;
-    height: 79.97px;
-    left: 145%;
-    top: 70px;    
-    background: #E7F0F2;
+    bottom: 35%;
+    right: 10%;
+    width: 12%;
+    border-top: 1px solid #E7F0F2;
 }
-.dropdown option {
-    position: absolute;
-    width: 200px;
-    height: 15.38px;
-    left: 856px;
-    top: 88px;
-    font-family: Ubuntu;
+.text p {
+    font-family: 'Ubuntu',sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
     line-height: 14px;
     text-align: right;
-    color: rgba(0, 0, 0, 0.4);
-}
-.shopnow {
-    position: absolute;
-    left: 220px;
-    top: 295px;
-    border: 1px solid #00000000;
-    box-sizing: border-box;
-}
-.shopnow button {
-    background: black;
-    color: #E7F0F2;
-    font-size: 12px;
-    font-family: 'Roboto', sans-serif;
-    padding: 10px;
-    width: 90px;
-    cursor: pointer;
-}
-.concept {
-    position: absolute;
-    width: 725px;
-    left: 675px;
-    top: 285px;
-}
-.concept h1 {
-    font-family:'Roboto', sans-serif;
-    font-weight: bold;
-    font-size: 50px;
-    text-align: center;
-}
-.concept h1 span {
-    font-weight: normal;
-}
-.text {
-    position: absolute;
-    width: 241px;
-    height: 0px;
-    left: 1160px;
-    top: 395px;
-    border: 1px solid #E7F0F2;
-}
-.text p {
-    padding-left: 65px;
-    padding-top: 20px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 12px;
-    font-weight: 500;
-    text-align: right;
+    color: rgba(0, 0, 0, 0.55);
 }
 .content {
     position: absolute;
@@ -203,7 +145,7 @@ table {
 
 .content-1 {
     position: absolute;
-    width: 240px;
+    width: 215px;
     height: 114px;
     left: 330px;
     top: 473px;
@@ -228,7 +170,7 @@ table {
 }
 .content-2 {
     position: absolute;
-    width: 240px;
+    width: 215px;
     height: 114px;
     left: 660px;
     top: 473px;
@@ -253,7 +195,7 @@ table {
 }
 .content-3 {
     position: absolute;
-    width: 240px;
+    width: 215px;
     height: 114px;
     left: 990px;
     top: 473px;
@@ -277,11 +219,8 @@ table {
     color: #FFFFFF;
 } 
 .footer {
-    /* position: absolute; */
     width: 100%;
     height: 40px;
-    left: 0px;
-    top: 661px;
     background: #FFFFFF;
     display: flex;
     justify-content: center;

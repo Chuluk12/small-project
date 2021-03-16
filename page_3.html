@@ -10,10 +10,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
-    <title>Page2</title>
+    <title>Page_3</title>
 </head>
 <body>
-    <div class="wrapper3">
+    <div class="wrapper">
         <div class="header3">
             <h1>Your Shop Name</h1>
         </div>
@@ -21,40 +21,90 @@
             <i class="fa fa-shopping-cart" aria-hidden="true"></i>
         </div>
         <div class="input">
-            <p>PRODUCT <i class="fa fa-search" aria-hidden="true"></i></p>
-            
+            <p>PRODUCT <i class="fa fa-search" aria-hidden="true"></i></p>   
+        </div>
+        <div class="container-3">
+            <div class="container-left">
+                <p id="demo"></p>
+            </div>
+            <div class="container-center">
+                <div class="kotak"> 
+                    <h3>TITLE HERE</h3>
+                    <P>CATEGORY</P>
+                </div>
+                <div class="kotak">
+                    <h3>TITLE HERE</h3>
+                    <P>CATEGORY</P>
+                </div>
+                <div class="kotak">
+                    <h3>TITLE HERE</h3>
+                    <P>CATEGORY</P>
+                </div>
+                <div class="kotak">
+                    <h3>TITLE HERE</h3>
+                    <P>CATEGORY</P>
+                </div>
+                <div class="kotak">
+                    <h3>TITLE HERE</h3>
+                    <P>CATEGORY</P>
+                </div>
+                <div class="kotak">
+                    <h3>TITLE HERE</h3>
+                    <P>CATEGORY</P>
+                </div>
+                <div class="kotak">
+                    <h3>TITLE HERE</h3>
+                    <P>CATEGORY</P>
+                </div>
+                <div class="kotak">
+                    <h3>TITLE HERE</h3>
+                    <P>CATEGORY</P>
+                </div>
+                <div class="kotak">
+                    <h3>TITLE HERE</h3>
+                    <P>CATEGORY</P>
+                </div>
+            </div>
+            <div class="container-right">
+                <p id="all"></p>
+            </div>
+        </div>         
+        <div class="number">
+            <div class="nomor">
+                <span>1</span>
+                <span>2</span>
+                <span>3</span>
+                <span>4</span>
+                <span>5</span>
+                <span>6</span>
+                <span>7</span>
+                <span>8</span>
+                <span>9</span>
+            </div>
         </div>
     </div>
+    <div class="footer">
+        <i class="fa fa-th" aria-hidden="true"></i>
+     </div> 
+         
+    <script>
+        let categori = ["FEATURED", "CATEGORY 1", "CATEGORY 2", "CATEGORY 3", "CATEGORY 4", "CATEGORY 5",];
+        let text = "";
+        let i;
+        for (i = 0; i < categori.length; i++) {
+            text += categori[i] + "<br>" + "<br>" + "<br>";
+        }
+        document.getElementById("demo").innerHTML = text;
+    </script>
 
-    
-        <div class="container-3">
-
-            <div class="container-left">
-                <p>FEATURED</p>
-                <P>CATEGORI 1</P>
-
-            </div>
-
-            <div class="container-center">
-                <div class="kotak"></div>
-                <div class="kotak"></div>
-                <div class="kotak"></div>
-                <div class="kotak"></div>
-                <div class="kotak"></div>
-                <div class="kotak"></div>
-                <div class="kotak"></div>
-                <div class="kotak"></div>
-                <div class="kotak"></div>
-            </div>
-
-            <div class="container-right">
-
-            </div>
-            
-        </div>
-            
-            <div class="footer">
-            <i class="fa fa-th" aria-hidden="true"></i>
-            </div>
+    <script>
+        let filter = ["ALL", "FILTER 1", "FILTER 2", "FILTER 3", "FILTER 4", "FILTER 5",];
+        let all = "";
+        let index;
+        for (index = 0; index < filter.length; index++) {
+            all += filter[index] +  "<br>" + "<br>" + "<br>" ;
+        }
+        document.getElementById("all").innerHTML = all;
+    </script>
 </body>
 </html>

@@ -43,16 +43,15 @@ table {
 }
 
 /* page3  */
-.wrapper3 {
-    margin-top: 20px;
-    margin-left: 20px;
-}
+.wrapper {
+   margin: 50px;
+} 
 .header3 {
     margin-left: 30px;
     float: left;
 }
 .header3 h1 {
-    font-family: 'Ubuntu';
+    font-family: 'Ubuntu',sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 36px;
@@ -89,34 +88,116 @@ table {
 }
 .container-3{
     width: 100%;
-    height: 100vh; 
+    height: 65vh; 
     display: flex;
     justify-content: center;
+    padding-top: 40px;
 }
 
 .container-left {
     width: 20%;
-    height: 100%; 
+    height: 46%;
     background-color: white;
+    margin-left: 3%;
+    margin-top: 12%;
+    border-left: 1px solid #E7F0F2;
+}
+
+.container-left p {
+    font-family: 'Ubuntu',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    color: #000000;
+    margin-left: 8px;
 }
 
 .container-center {
     width: 60%;
-    height: 100%; 
+    height: 75%;
     background-color: white;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    margin-left: 10%;   
 } 
 .container-right
 {
-    width: 20%;
-    height: 100%; 
+    width: 10%;
+    height: 10%;
     background-color: white;
+    margin-left: 20%;
 }
-.kotak
-{
-    width: 30%;
-    height: 50px;
-    border: 1px solid black;
+.container-right p {
+    font-family: 'Ubuntu',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    color: #000000;
+    margin-left: 20px;
+    border-right: 1px solid #E7F0F2;
 }
+.kotak {
+    width: 173px;
+    height: 116px;
+    border: 1px solid transparent;
+    margin-top: 20px;
+    background: rgba(231, 240, 242, 0.3);
+    backdrop-filter: blur(6px);
+}
+.kotak h3 {
+    font-family: 'Ubuntu',sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 12px;
+    line-height: 16px;
+    color: #000000;
+    margin-top: 40%;
+    margin-left: 20px;
+}
+.kotak p {
+    font-family: 'Ubuntu',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 13px;
+    color: #000000;
+    margin-left: 20px;
+}
+.number {
+    border-top: 0.5px solid #E7F0F2;
+    width: 25%;
+    margin-left: 35%;
+}
+.number .nomor {
+   display: flex;
+   justify-content: center;
+   margin-top: 20px;
+}
+.nomor span:first-child {
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    letter-spacing: 1em;
+    color: #000000;
+}
+.nomor span {
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 1em;
+    color: #E7F0F2;
+}
+.footer {
+    width: 100%;
+    height: 40px;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 0.5px solid #C4C4C4;
+} 
