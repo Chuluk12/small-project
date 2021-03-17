@@ -52,12 +52,9 @@ table {
     width: 40%;
     background: rgba(231, 240, 242, 0.3);
 }
-
-img {
-    width: 600px;
-    height: 600px;
-    margin-left: 60px;
-    margin-top: 60px;
+.image {
+    margin-top: 10%;
+    margin-left: 15%;
 }
 .box {
     width: 60%;
@@ -78,7 +75,8 @@ img {
     text-align: right;
     line-height: 14px;
     font-family: 'Roboto', sans-serif;
-    border-left: 2px solid #E7F0;
+    border-right: 1px solid #C8DDE3;
+    padding-right: 10px;
 }
 .text1 {
     margin-top: 15%;
@@ -147,6 +145,8 @@ img {
     font-size: 18px;
     color: rgba(0, 0, 0, 0.85);
     margin-top: -5px;
+    border: none;
+    outline: none;
 }
 .mens {
     float: right;
@@ -176,42 +176,7 @@ img {
     font-size: 12px;
     font-family: 'Ubuntu',sans-serif;
 }
-.tombol1 {
-    position: relative;
-    bottom: 25px;
-    left: 60px;
-}
-.tombol1 button {
-    background: #000000;
-    width: 45px;
-    height: 55px;
-    margin-top: 5px;
-    margin-left: 6px;
-}
-.tombol2 {
-    position: relative;
-    bottom: 77px;
-    left: 115px;
-}
-.tombol2 button {
-    background: #000000;
-    width: 45px;
-    height: 55px;
-    margin-top: -2px;
-    margin-left: 10px;
-}
-.tombol1 .fa-angle-left {
-    color: #FFFFFF;
-    font-size: 30px;
-    cursor: pointer;
-}
-.tombol2 .fa-angle-right {
-    color: #FFFFFF;
-    font-size: 30px;
-    margin-top: 1px;
-    margin-left: 3px;
-    cursor: pointer;
-}
+
 .footer {
     width: 100%;
     height: 40px;
@@ -221,3 +186,58 @@ img {
     align-items: center;
     border-top: 0.5px solid #C4C4C4;
 } 
+
+.prev {
+    cursor: pointer;
+    margin-right: 8px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    background: #000000;
+  }
+  .next {
+    left: 55px;
+    border-radius: 3px 0 0 3px;
+    cursor: pointer;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    background: #000000;
+  }
+  .sliding {
+    position: relative;
+    left: 15%;
+    bottom: 37px;
+  }
+  
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+    
+  }
+  .prev:focus {
+    background-color: rgba(0,0,0,0.8);
+  }
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  } 

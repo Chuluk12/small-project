@@ -43,6 +43,7 @@ table {
 }
 
 /* page3  */
+
 .wrapper {
    margin: 50px;
 } 
@@ -66,26 +67,30 @@ table {
 .cart .fa-shopping-cart {
     margin-bottom: 30px;
     font-size: 20px;
+    cursor: pointer;
 }
 .input {
-    float: right;
-    border-bottom: 0.5px solid #C4C4C4;
-    margin-right: 15%;
-    margin-top: 10px;
-    width: 215px;
+   float: right;
+   margin-right: 20%;
+   border-bottom: 0.5px solid #C4C4C4;
 }
-.input p {
+
+input[type="text"] {
+    border: none;
+    outline: none;
     font-family: 'Roboto',sans-serif;
+    font-style: normal;
     font-weight: 900;
-    font-size: 15px;
+    font-size: 12px;
+    line-height: 14px;
     text-align: right;
-    color: #E7F0F2;
 }
-.input .fa-search {
-    margin-left: 55px;
+ .input .fa-search {
+    margin-left: 40px;
     margin-bottom: 12px;
     color: #000000;
-}
+    cursor: pointer;
+} 
 .container-3{
     width: 100%;
     height: 65vh; 
@@ -93,26 +98,33 @@ table {
     justify-content: center;
     padding-top: 40px;
 }
-
 .container-left {
     width: 20%;
     height: 46%;
     background-color: white;
     margin-left: 3%;
     margin-top: 12%;
-    border-left: 1px solid #E7F0F2;
+    border-left: 0.5px solid #E7F0F2;
+}
+.container-left span {
+    font-family: 'Ubuntu',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 30px;
+    color: #000000;
+    margin-left: 15px;
 }
 
 .container-left p {
     font-family: 'Ubuntu',sans-serif;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 12px;
-    line-height: 14px;
+    line-height: 40px;
     color: #000000;
-    margin-left: 8px;
+    margin-left: 15px;
 }
-
 .container-center {
     width: 60%;
     height: 75%;
@@ -121,24 +133,34 @@ table {
     justify-content: space-around;
     flex-wrap: wrap;
     margin-left: 10%;   
+    cursor: pointer;
 } 
-.container-right
-{
+.container-right {
     width: 10%;
-    height: 10%;
+    height: 46%;
     background-color: white;
     margin-left: 20%;
+    border-right: 0.5px solid #E7F0F2;
+}
+.container-right span {
+    font-family: 'Ubuntu',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 25px;
+    color: #000000;
+    margin-left: 55px;
 }
 .container-right p {
     font-family: 'Ubuntu',sans-serif;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 12px;
-    line-height: 14px;
+    line-height: 40px;
     color: #000000;
-    margin-left: 20px;
-    border-right: 1px solid #E7F0F2;
+    margin-left: 25px;
 }
+
 .kotak {
     width: 173px;
     height: 116px;

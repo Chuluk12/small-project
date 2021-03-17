@@ -15,17 +15,22 @@
 <body>
     <div class="wrapper">
         <div class="header3">
-            <h1>Your Shop Name</h1>
+            <h1>Toko Online Kaca Mata</h1>
         </div>
         <div class="cart">
             <i class="fa fa-shopping-cart" aria-hidden="true"></i>
         </div>
         <div class="input">
-            <p>PRODUCT <i class="fa fa-search" aria-hidden="true"></i></p>   
+             <input type="text" placeholder="PRODUCT" style="text-align: center; color: #E7F0F2;"> <i class="fa fa-search" aria-hidden="true"></i>
         </div>
         <div class="container-3">
             <div class="container-left">
-                <p id="demo"></p>
+                <span>FEATURED</span>
+                <p style="font-weight: 900;">CATEGORY 1</p>
+                <p>CATEGORY 2</p>
+                <p>CATEGORY 3</p>
+                <p>CATEGORY 4</p>
+                <p>CATEGORY 5</p>
             </div>
             <div class="container-center">
                 <div class="kotak"> 
@@ -66,7 +71,12 @@
                 </div>
             </div>
             <div class="container-right">
-                <p id="all"></p>
+                <span>ALL</span>
+                <p style="font-weight: 900;">FILTER 1</p>
+                <p>FILTER 2</p>
+                <p>FILTER 3</p>
+                <p>FILTER 4</p>
+                <p>FILTER 5</p>
             </div>
         </div>         
         <div class="number">
@@ -86,25 +96,5 @@
     <div class="footer">
         <i class="fa fa-th" aria-hidden="true"></i>
      </div> 
-         
-    <script>
-        let categori = ["FEATURED", "CATEGORY 1", "CATEGORY 2", "CATEGORY 3", "CATEGORY 4", "CATEGORY 5",];
-        let text = "";
-        let i;
-        for (i = 0; i < categori.length; i++) {
-            text += categori[i] + "<br>" + "<br>" + "<br>";
-        }
-        document.getElementById("demo").innerHTML = text;
-    </script>
-
-    <script>
-        let filter = ["ALL", "FILTER 1", "FILTER 2", "FILTER 3", "FILTER 4", "FILTER 5",];
-        let all = "";
-        let index;
-        for (index = 0; index < filter.length; index++) {
-            all += filter[index] +  "<br>" + "<br>" + "<br>" ;
-        }
-        document.getElementById("all").innerHTML = all;
-    </script>
 </body>
 </html>
